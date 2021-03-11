@@ -4,7 +4,7 @@ header:
   cta: Delegate now
 
 intro:
-  heading: What the heck is a "poule"
+  heading: What the heck is a "poule"?
   content: >
     “Poule” means “chicken” 🐔 in French 🇫🇷
 
@@ -22,19 +22,19 @@ convince:
   heading: Why stake with us?
   reasons:
     - image:
-        src: /image.png
+        src: /images/home/expert.png
         alt: Experience
       text: >
-        We are **2 passionate software engineers** with combined **experience of 30+ years** in development and networking. Your stakes are in good hands!
+        We are **2 passionate software engineers** with a combined **experience of 30+ years** in development and networking. Your stakes are in good hands!
 
     - image:
-        src: /image2.png
+        src: /images/home/blocks.png
         alt: Small independent
       text: >
         You are supporting a **small independent pool** mint blocks on the Cardano blockchain, helping it be more **decentralised**.
 
     - image:
-        src: /image3.png
+        src: /images/home/ada.png
         alt: Cardano goodness
       text: >
         Get all the goodness of staking your ADA on Cardano. **Your coins are never locked and never leave your wallet**, you can take it out whenever you want, and you will **never be penalised** if the poule ever underperformed.

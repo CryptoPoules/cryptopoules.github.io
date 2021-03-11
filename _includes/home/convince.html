@@ -1,0 +1,12 @@
+<section class="homepage__convince">
+  <h1 class="heading">{{ site.data.home.convince.heading }}</h1>
+
+  {% for reason in site.data.home.convince.reasons %}
+  <div class="reason">
+    <img src="{{ reason.image.src }}" alt="{{ reason.image.alt }}" />
+    <p>{{ reason.text | markdownify }}</p>
+  </div>
+  {% endfor %}
+
+  <button>{{ site.data.home.convince.cta }}</button>
+</section>

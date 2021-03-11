@@ -1,15 +1,101 @@
 .homepage {
   height: 100%;
 
-  p {
-    white-space: pre-wrap;
-  }
-
   &__header {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    background-image: url('/images/home/landing.mobile.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .top {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      .logo {
+        max-width: 120px;
+      }
+    }
+
+    .middle {
+      flex: 2;
+
+      .heading {
+        margin-top: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $text-darker-light-color;
+        margin-bottom: 4px;
+        font-size: 22px;
+      }
+
+      .subHeading {
+        text-align: center;
+        color: $text-light-color;
+        font-size: 16px;
+        font-weight: 600;
+        opacity: 0.8;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: column;
+
+      .cta {
+        margin: 0 auto 60px auto;
+        display: inline-block;
+      }
+    }
   }
 
-  &__rewards {
-    height: 100%;
+  &__intro {
+    background-color: $background-secondary-color;
+    padding: 50px 0px;
+
+    .heading {
+      margin: 20px 0 50px 0;
+      letter-spacing: 0;
+      text-align: center;
+      color: $primary-dark-color;
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+
+    p {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+
+  &__convince {
+    padding: 50px 40px;
+
+    .heading {
+      margin: 20px 0 50px 0;
+      letter-spacing: 0;
+      text-align: center;
+      color: $primary-light-color;
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+    
+    .reason {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+
+      img {
+        margin: 20px auto;
+        width: 220px;
+      }
+    }
+
   }
 }
