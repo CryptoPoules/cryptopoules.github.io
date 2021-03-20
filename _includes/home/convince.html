@@ -1,0 +1,11 @@
+<div class="container mx-auto px-10 max-w-screen-lg">
+  <h1 class="text-primary-700 font-heading text-center text-2xl uppercase mt-24 mb-12">{{ site.data.home.convince.heading }}</h1>
+  <div class="grid sm:grid-cols-3 gap-12">
+    {% for reason in site.data.home.convince.reasons %}
+    <div class="flex flex-col">
+      <img class="max-h-28 self-center mt-6 mb-2" src="{{ reason.image.src }}" alt="{{ reason.image.alt }}" />
+      <p>{{ reason.text | markdownify }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
