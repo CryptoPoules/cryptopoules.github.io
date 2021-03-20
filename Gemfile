@@ -7,5 +7,5 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-tagging", "~> 1.1.0"
   gem "jekyll-sitemap", "~> 1.4.0"
-  gem "jekyll-postcss"
+  gem "jekyll-postcss", "~> 0.4.0"
 end

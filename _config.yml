@@ -37,6 +37,7 @@ plugins:
   - jekyll-postcss
 
 include:
+  - 
   - _pages
 
 # Exclude from processing.
@@ -62,4 +63,3 @@ exclude:
   - package.json
   - package-lock.json
   - postcss.config.js
-  - tailwind.config.js

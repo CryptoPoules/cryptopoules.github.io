@@ -1,8 +1,12 @@
+const jekyllEnv = process.env.JEKYLL_ENV || "development";
+
 module.exports = {
   plugins: [
+    require("postcss-import"),
     require("tailwindcss"),
     require("autoprefixer"),
-    require("cssnano")({ preset: "default" }),
-    require("postcss-import")
+    ...(jekyllEnv != "development"
+      ? [require("cssnano")({ preset: "default" })]
+      : [])
   ]
 };

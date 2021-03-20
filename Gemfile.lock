@@ -73,7 +73,7 @@ DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.15.1)
   jekyll-paginate (~> 1.1.0)
-  jekyll-postcss
+  jekyll-postcss (~> 0.4.0)
   jekyll-sitemap (~> 1.4.0)
   jekyll-tagging (~> 1.1.0)
 
