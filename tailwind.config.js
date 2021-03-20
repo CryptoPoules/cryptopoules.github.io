@@ -9,9 +9,9 @@ module.exports = {
       ...defaultTheme.flex
     },
     fontFamily: {
-      default: "'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif",
-      sans: "'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif",
-      heading: ['"Lilita One"', "cursive"]
+      default: '"Raleway", Helvetica Neue, Helvetica, Arial, sans-serif',
+      sans: '"Roboto", Helvetica Neue, Helvetica, Arial, sans-serif',
+      heading: ["'Lilita One'", "cursive"]
     },
     extend: {
       backgroundImage: theme => ({

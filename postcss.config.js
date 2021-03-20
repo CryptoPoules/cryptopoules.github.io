@@ -1,8 +1,9 @@
 module.exports = {
-  parser: "postcss-scss",
   plugins: [
     require("tailwindcss"),
-    require("cssnano")(),
-    require("autoprefixer")
+    require("autoprefixer"),
+    ...(process.env.JEKYLL_ENV == "production"
+      ? [require("cssnano")({ preset: "default" })]
+      : [])
   ]
 };
