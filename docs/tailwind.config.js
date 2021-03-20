@@ -21,7 +21,9 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         "hero-landscape": "url('/images/home/landing.landscape.png')",
-        "hero-portrait": "url('/images/home/landing.portrait.png')"
+        "hero-portrait": "url('/images/home/landing.portrait.png')",
+        "hero-separator":
+          "linear-gradient(-3.5deg, rgba(255,240,239,1) 49%, rgba(255,240,239,0) 50%);"
       }),
       colors: {
         primary: {
