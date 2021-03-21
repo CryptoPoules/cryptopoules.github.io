@@ -17,8 +17,9 @@ intro:
 
 rewards:
   heading: Reward distribution
+  cta: Stake my ADA
 
-convince:
+why_us:
   heading: Why stake with us?
   reasons:
     - image:

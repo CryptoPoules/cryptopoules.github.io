@@ -15,17 +15,33 @@
     @apply my-4;
   }
 
-  button {
+  .cta {
     @apply font-sans;
     @apply uppercase;
     @apply font-semibold;
     @apply outline-none;
     @apply shadow-lg;
-    @apply h-14;
+    @apply h-16;
     @apply rounded;
     @apply px-6;
     @apply bg-primary-500;
     @apply text-primary-50;
+    @apply border-b-4;
+    @apply border-primary-600;
+    @apply transition-all;
+    @apply duration-100;
+    -webkit-tap-highlight-color: transparent;
+
+    &:active {
+      @apply transform;
+      @apply translate-y-1;
+      @apply border-b-0;
+    }
+
+    &:active, &:focus {
+      @apply outline-none;
+      @apply shadow-md;
+    }
   }
 
   .social-icon {
