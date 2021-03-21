@@ -1,0 +1,18 @@
+<div class="flex flex-col justify-center items-center mb-12">
+  <ul class="flex flex-row">
+    {% if site.data.settings.socials.twitter %}
+      <li>
+        <a class="social-icon" href="{{site.data.settings.socials.twitter}}">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.data.settings.socials.reddit %}
+      <li>
+        <a class="social-icon" href="{{site.data.settings.socials.reddit}}">
+          <ion-icon name="logo-reddit"></ion-icon>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</div>

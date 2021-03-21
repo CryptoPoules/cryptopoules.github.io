@@ -35,6 +35,9 @@ module.exports = {
           800: "#92405E",
           900: "#6A214F"
         }
+      },
+      screens: {
+        "hero-landscape": "420px"
       }
     },
     typography: theme => ({

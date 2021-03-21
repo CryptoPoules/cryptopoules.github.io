@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="en">
 
 {% include head.html %}
 
-<body class="h-full">
+<body>
 
   <!-- begin content -->
-  <main class="h-full" aria-label="Content">
+  <main aria-label="Content">
     {{ content }}
   </main>
   <!-- end content -->
 
+  {% include footer.html %}
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 
 </html>
