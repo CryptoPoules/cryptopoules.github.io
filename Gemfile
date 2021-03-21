@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem "jekyll-tagging", "~> 1.1.0"
   gem "jekyll-sitemap", "~> 1.4.0"
   gem "jekyll-postcss", "~> 0.4.0"
+  gem "jekyll-purgecss", "~> 0.3.0"
 end

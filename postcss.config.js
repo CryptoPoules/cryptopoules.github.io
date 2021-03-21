@@ -7,7 +7,9 @@ module.exports = {
     require("tailwindcss"),
     require("autoprefixer"),
     ...(jekyllEnv != "development"
-      ? [require("cssnano")({ preset: "default" })]
+      ? [
+          //require("cssnano")({ preset: "default" })
+        ]
       : [])
   ]
 };
