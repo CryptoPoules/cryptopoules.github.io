@@ -21,8 +21,11 @@ jobs:
       with:
         node-version: 14
     - run: npm install
-    - run: bundle install
-    - run: bundle exec jekyll build --future
+    - run: bundle exec jekyll build --future --verbose
       env:
         JEKYLL_ENV: production
         NODE_ENV: production 
+    - uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: _site
