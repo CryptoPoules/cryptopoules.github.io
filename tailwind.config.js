@@ -17,6 +17,9 @@ module.exports = {
       backgroundImage: theme => ({
         "hero-landscape": "url('/images/home/landing.landscape.png')",
         "hero-portrait": "url('/images/home/landing.portrait.png')",
+        "rewards-landscape": "url('/images/home/rewards.landscape.png')",
+        "rewards-landscape-repeat":
+          "url('/images/home/rewards.landscape.repeat.png')",
         "hero-separator":
           "linear-gradient(-3.5deg, rgba(255,240,239,1) 49%, rgba(255,240,239,0) 50%);"
       }),
