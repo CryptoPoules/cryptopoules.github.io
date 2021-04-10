@@ -16,6 +16,9 @@
   }
 
   .cta {
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
     @apply font-sans;
     @apply uppercase;
     @apply font-semibold;

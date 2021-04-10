@@ -1,0 +1,27 @@
+---
+layout: nfts
+---
+
+<div class="container mx-auto max-w-screen-lg p-4">
+  <header class="pt-12">
+    <span class="text-sm block text-center font-sans font-light text-gray-300 uppercase">Crypto Poules</span>
+    <h1 class="text-3xl text-center font-heading pb-12 text-gray-100">NFTs COLLECTIONS</h1>
+  </header>
+
+  <p class="text-md text-center font-sans text-gray-100">
+    Become the sole owner of our NFTs, minted by our team.
+  </p>
+
+  <ul class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8 mb-8">
+    <li class="bg-gray-900 rounded-md shadow-lg">
+      <video autoplay muted loop class="rounded-t-md">
+        <source src="/images/nfts/genesis/preview.mp4" type="video/mp4">
+      </video>
+      <div class="p-4">
+        <h2 class="text-md text-gray-100 font-sans pb-2 pt-2 font-bold uppercase">Genesis Collection</h2>
+        <p class="text-gray-300">NFTs for delegators who helped our staking pool grow and mint its first block</p>
+        <a href="/nfts/genesis" class="cta w-full">Reserve mine</a>
+      </div>
+    </li>
+  </ul>
+</div>
